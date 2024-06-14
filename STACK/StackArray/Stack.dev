@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=3
+UnitCount=5
 
 [VersionInfo]
 Major=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=StackArray.h
+FileName=StackLL.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -82,6 +82,16 @@ BuildCmd=
 
 [Unit2]
 FileName=StackArray.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=StackLL.c
 CompileCpp=1
 Folder=
 Compile=1
