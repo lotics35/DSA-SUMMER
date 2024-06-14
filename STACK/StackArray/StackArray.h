@@ -19,6 +19,6 @@ bool stack_pop(StackArrayList *A);
 int stack_peek(StackArrayList A);
 
 void display(StackArrayList A);
-//void visualized(StackArrayList A);
+void visualized(StackArrayList A);
 
 #endif
